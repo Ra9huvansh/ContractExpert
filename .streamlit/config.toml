@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#4CAF50"  # Subtle green for accents (e.g., buttons)
+backgroundColor = "#1E1E2F"  # Elegant dark blue-gray
+secondaryBackgroundColor = "#2A2A40"  # Slightly lighter dark shade for contrast
+textColor = "#E0E0E0"  # Light gray for readability
+font = "sans serif"  # Modern, professional look
