@@ -5,6 +5,19 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from chatbot import answer_question
 import random
+from login import login_page
+
+def main():
+    user = login_page()  # Display the login page
+    if user:
+        st.sidebar.success(f"Logged in as: {user}")
+        st.title("Your App's Main Page")
+        # Add your app functionalities here
+    else:
+        st.warning("Please log in to access the app.")
+
+if __name__ == "__main__":
+    main()
 
 # Set the page config
 st.set_page_config(
